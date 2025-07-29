@@ -35,6 +35,93 @@ const HomeComponent = () => {
             </div>
         </section>
 
+        {/* About Section */}
+        <section id="about" className='py-5 bg-light'>
+            <div className="container">
+                <h2 className='text-success text-center'>About Masomo School</h2>
+                <p>
+                    Masomo school is a leading institution dedicated to to providing quality Education rooted in the competency-Based curriculum (CBC) as set by the Kenyan Ministry of Education. We focus on holistiv development, creativity and real-world skills for tomorrow's leaders.
+                </p>
+            </div>
+        </section>
+
+        {/* CBC section */}
+        <section className="py-5">
+            <div className="container">
+                <h2 className='text-success text-center'> Understaing CBC in Kenya </h2>
+                <p>The competency Based Curriculum (CBC) was introduced to replacd the 8-4-4 system. It focuses on nurturing learner's talents and abilities through practical skill oriented learning experiences. CBC emphasizes learner-centered teaching and aims at developing competencies that align with national development goals.</p>
+                <ul className='list-group list-group-flush mt-3'>
+                    <li className='list-group-item'> ☑️ Focus on talent & Skills</li>
+                    <li className="list-group-item"> ☑️ Learner-Centered Approach</li>
+                    <li className="list-group-item"> ☑️ Real-Life Problem Solving </li>
+                    <li className="list-group-item"> ☑️ Continous Assessment</li>
+                </ul>
+            </div>
+        </section>
+
+        {/* why us? */}
+        <section className="py-5 bg-light">
+            <div className="container">
+                <h2 className='text-center text-success'>
+                    Why Choose Masomo School?
+                </h2>
+                <div className="row">
+                    <div className="col-md-4">
+                        <div className="card shadow p-2 h-100">
+                            <div className="card-header text-center">
+                                <h3>Experienced Teachers</h3>
+                            </div>
+                            <div className="card-body">
+                                <p className="card-text">
+                                    Our trainers are trained in CBC and are commited to student growth.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-md-4">
+                        <div className="card shadow h-100 p-2">
+                            <div className="card-header text-center">
+                                <h3>Modern Facilities</h3>
+                            </div>
+                            <div className="card-body">
+                                <p className="card-text">
+                                    We provide state of the art labs, libraries and learning spaces.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-md-4">
+                        <div className="card shadow h-100 p-2">
+                            <div className="card-header text-center">
+                                <h3>Co-Curriculum Activies</h3>
+                            </div>
+                            <div className="card-body">
+                                <p>
+                                    Students explore sports, arts, tech and leadership beyond books
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        {/* Contact Section */}
+        <section className="py-5 text-center">
+            <div className="container">
+                <h2 className='text-success'>Join Masomo School Today!</h2>
+                <p>Enroll your child in a school that build future ready citizens</p>
+                <a href="#">Apply Now</a>
+            </div>
+        </section>
+
+        {/* Footer Section */}
+        <footer className="bg-dark text-white text-center py-3">
+            <p className="mb-0">
+                &copy; {new Date().getFullYear()} Masomo School. All rights reserved.
+            </p>
+        </footer>
+
     </div>
   )
 }
