@@ -1,7 +1,7 @@
 import axios from 'axios';
 import React from 'react'
 import { useState } from 'react'
-import {  useNavigate } from 'react-router-dom'
+import {  useNavigate, Link } from 'react-router-dom'
 
 const RegisterComponent = () => {
 
@@ -94,6 +94,8 @@ const RegisterComponent = () => {
                 <button type='submit' className='btn btn-success'>Register</button>
             </div>
             <div className="text-center">
+                <p>Alredy have an Account? <Link to="/login">Login</Link></p>
+                
                 
             </div>
         </form>

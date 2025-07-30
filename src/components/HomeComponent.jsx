@@ -18,7 +18,7 @@ const HomeComponent = () => {
                         <li className='nav-item'> <a href="#about" className='nav-link text-white'>About</a></li>
                         <li className='nav-item'> <a href="#cbc" className='nav-link text-white'>CBC Curriculum</a></li>
                         <li className='nav-item'> <a href="#why-masomo" className='nav-link text-white'>Why Us?</a></li>
-                        <li className='nav-item'> <a href="#login" className='nav-link text-white'>Login</a></li>
+                        <li className='nav-item'> <Link to="/login" className='nav-link text-white'>Login</Link> </li>
                     </ul>
                 </div>
             </div>
